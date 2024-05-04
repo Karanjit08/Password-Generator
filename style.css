@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#wrapper{
+    min-height: 100vh;
+    overflow-x: hidden;
+    background-color: #355CAD;
+}
+
+
+
+.container{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.password-heading h1{
+    font-weight: bold;
+    font-size: 2rem;
+    color: white;
+}
+
+.password-box-1{
+    margin-top: 10px;
+    height: 50px;
+    width: 300px;
+    background-color: rgba(0,0,0,.5);
+    color: #fff;
+    border: 1px solid white;
+    opacity: .8;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.result{
+    font-size: 1.28rem;
+    margin-left: 10px;
+}
+.copy-icon{
+    margin-right: 10px;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+#password-slider{
+    
+    accent-color: #DB8178;
+}
+
+
+
+.password-box-2{
+    margin-top: 10px;
+    
+    width: 300px;
+    background-color: rgba(0,0,0,.5);
+    color: #fff;
+    border: 1px solid white;
+    opacity: .8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0px 0px 3px 3px rgba(255,255,255,.5); 
+}
+
+.password-uppercase, .password-lowercase, .password-number, .password-symbol{
+    width: 300px;
+    height: 50px;
+    /* background-color: black; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.password-length{
+    width: 300px;
+    height: 60px;
+    /* background-color: black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.password-length input[type="range"] {
+    width: 80%; /* Set the width of the range slider */
+}
+
+.password-length-number{
+    width: 300px;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+label{
+    margin-left: 10px;
+    font-size: 1.1rem;
+}
+input{
+    margin-right: 10px;
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
+    accent-color: #DB8178;
+}
+
+.password-box-3{
+    margin-top: 10px;
+    height: 50px;
+    width: 300px;
+    background-color: rgba(0,0,0,.5);
+    color: #fff;
+    border: 1px solid white;
+    opacity: .8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
